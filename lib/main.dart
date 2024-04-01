@@ -10,11 +10,11 @@ class DiceRoller extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return const MaterialApp(
+    return MaterialApp(
         home: Scaffold(
       body: GradientContainer(
-        Color.fromARGB(129, 28, 168, 238),
-        Color.fromARGB(221, 9, 56, 167),
+        const Color.fromARGB(129, 28, 168, 238),
+        const Color.fromARGB(221, 9, 56, 167),
       ),
     ));
   }
